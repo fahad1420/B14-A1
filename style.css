@@ -351,3 +351,14 @@ header{
 
     color:#fff;
 }
+/*Pricing Card Hover Effect*/
+
+.pricing-card{
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    cursor: pointer;
+}
+
+.pricing-card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.18);
+}
