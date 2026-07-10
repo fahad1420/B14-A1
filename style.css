@@ -17,7 +17,7 @@ header{
 .navbar{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 18px 80px;
+    padding: 14px 20px;
 
     display: flex;
     justify-content: space-between;
@@ -33,14 +33,15 @@ header{
 .nav-links{
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 28px;
 }
 
 .nav-links a{
     text-decoration: none;
     color: #fff;
-    font-size: 17px;
+    font-size: 14px;
     transition: .3s;
+    font-weight: 500;
 }
 
 .nav-links a:hover{
@@ -52,7 +53,8 @@ header{
     text-decoration: none;
     color: #fff;
     background: #4f46e5;
-    padding: 12px 26px;
+    padding: 12px 24px;
+    font-size: 14px;
     border-radius: 8px;
     font-weight: 600;
     transition: .3s;
@@ -93,11 +95,12 @@ header{
 }
 
 .hero h1{
-    font-size: 72px;
-    font-weight: 700;
-    line-height: 1.15;
-    margin-bottom: 25px;
+    font-size:68px;
+    font-weight:700;
+    word-spacing:10px;
+    letter-spacing:-2px;
 }
+
 
 .hero em{
     font-style: italic;
@@ -105,11 +108,9 @@ header{
 }
 
 .hero p{
-    width: 700px;
-    font-size: 18px;
-    line-height: 1.7;
-    color: #d1d5db;
-    margin-bottom: 40px;
+    width:620px;
+    font-size:16px;
+    line-height:1.6;
 }
 
 .hero-btn{
@@ -124,9 +125,38 @@ header{
 
     font-weight: 600;
     transition: .3s;
+    margin-top: 15px;
 }
 
 .hero-btn:hover{
     background: #4338ca;
     transform: translateY(-3px);
+}
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:28px;
+    height:28px;
+}
+
+.logo-text{
+    display:flex;
+    flex-direction:column;
+    line-height:1.1;
+}
+
+.logo-text span:first-child{
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+}
+
+.logo-text span:last-child{
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
 }
