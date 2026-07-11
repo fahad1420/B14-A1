@@ -67,11 +67,11 @@ header{
 /* Hero Section */
 
 .hero{
-    height: 85vh;
+    height: 92vh;
 
     background-image: url("./assets/banner.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center 65%;
     background-repeat: no-repeat;
 
     display: flex;
@@ -125,7 +125,7 @@ header{
 
     font-weight: 600;
     transition: .3s;
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 .hero-btn:hover{
