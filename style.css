@@ -167,7 +167,7 @@ header{
 .container{
     max-width:1200px;
     margin:0 auto;
-    padding:90px 20px;
+    padding:70px 20px;
 }
 
 .section-title{
@@ -227,7 +227,7 @@ header{
 /*Pricing*/
 
 .pricing{
-    padding:120px 0;
+    padding:70px 0;
     background:#fff;
 }
 
@@ -361,4 +361,62 @@ header{
 .pricing-card:hover{
     transform: translateY(-15px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.18);
+}
+
+/*AI Challenge Section*/
+
+.hackathon{
+    padding:70px 20px;
+    background:#f8fafc;
+    text-align:center;
+}
+
+.hackathon .container{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.hackathon h2{
+    font-size:48px;
+    color:#0f172a;
+    margin-bottom:20px;
+}
+
+.hackathon-subtitle{
+    max-width:700px;
+    margin:0 auto 60px;
+    color:#64748b;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.hackathon-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    margin-bottom:50px;
+}
+
+.hack-card{
+    background:#fff;
+    padding:40px 30px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.hack-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+}
+
+.hack-card h3{
+    font-size:24px;
+    color:#4f46e5;
+    margin-bottom:20px;
+}
+
+.hack-card p{
+    color:#64748b;
+    line-height:1.8;
 }
